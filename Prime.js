@@ -5,7 +5,7 @@ function isPrime(n) {
 
     // Check from 2 to n-1 
     for (let i = 2; i < n; i++) 
-        if (n % i == 1) 
+        if (n % i == 0) 
             return false; 
 
     return true; 
